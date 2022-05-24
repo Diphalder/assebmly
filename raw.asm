@@ -1,0 +1,14 @@
+ .MODEL SAMLL
+.STACK 100H
+.DATA 
+.CODE 
+MAIN PROC    
+
+
+
+
+    MOV AH ,4CH  ; DOC close
+    INT 21H
+    MAIN ENDP
+END MAIN
+   
